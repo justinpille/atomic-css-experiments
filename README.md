@@ -6,7 +6,7 @@ Atomic CSS means writing single-purpose classes and composing them at the point 
 - [CSS and Scalability](http://mrmrs.io/writing/2016/03/24/scalable-css/)
 - [Functional Programming, CSS, and your sanity](http://www.jon.gold/2015/07/functional-css/)
 
-I'm creating a series of opinionated design systems, with predifiend classes geared toward the atomic philosophy. Each system can be paired with a design kit, including things like paper templates. The idea is that designers and developers can agree upon a system, then work somewhat independently using their own tools.
+I'm creating a series of opinionated design systems, with predifiend classes geared toward the atomic philosophy. Each system can be paired with a design kit, including things like paper templates. The idea is that designers and developers can agree upon a system, then work somewhat independently using their own tools. The kit would also serve as documentation for the code.
 
 Modules could be combined within a project, or even used to extend a framework like [basscss](http://basscss.com/)
 . Mainly these are experiments and I don't expect them all to be practical. I hope to learn a lot.
