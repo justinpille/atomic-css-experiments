@@ -11,6 +11,38 @@ I'm creating a series of opinionated design systems, with predifiend classes gea
 Modules could be combined within a project, or even used to extend a framework like [basscss](http://basscss.com/)
 . Mainly these are experiments and I don't expect them all to be practical. I hope to learn a lot.
 
+
+## Base Ten
+
+An algrabraic positioning system where the smallest unit is 10 pixels. Class names are short abbreviations postfixed with a multiplier. `p1` is `padding: 10px`, and `m7` is `margin 70px`.
+
+
+## Geometric Space
+
+A positioning system where distances increase geometrically. The 1 index is 1px, and each subsequent index is obtained by doubling. 
+
+1. 1
+2. 2
+3. 4
+4. 8
+5. 16
+6. 32
+7. 64
+8. 128
+9. 256
+10. 512
+11. 1024
+12. 2048
+
+So for example, `p6` maps to `padding: 8px`.
+
+
+## Imperial Columns
+
+The familiar 12 column grid. Widely used because 12 is divisible by 2, 3, 4, and 6 (not to mention 1 and 12). Use `col-2` to denote that an element should take up two of the twelve columns (i.e. one-sixth of the width of the parent container). Widths are difined in percentages, so they will squish and expand as the container size changes.
+
+
+
 ## Divider
 
 A grid system with units that divide instead of multiply. `col-1` is 100% width, `col-2` is 50%, and `col-3` is 33.33%. It goes up to `col-12`, which is 8.33%.
@@ -55,10 +87,6 @@ A margin-based alternative to Offset.
 
 
 ## Animation
-
-
-
-## Geometric Spacing
 
 
 
