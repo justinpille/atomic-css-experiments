@@ -10,9 +10,20 @@ I'm creating a series of opinionated design systems, with predifiend classes gea
 
 Mainly these are experiments and I don't expect them all to be practical. I hope to learn a lot.
 
-## Quad 4
+## Quad 1
+
+From Wikipedia, 
+> The axes of a two-dimensional Cartesian system divide the plane into four infinite regions, called quadrants, each bounded by two half-axes.
+
+The quadrants are numbered, and the one on the top-right is number 1. If you take the browser's viewport to encompass that quadrant you would have a system where the bottom-left corner of the screen is the origin, and X and Y increase when going right and up.
+
+Computer graphics systems, including CSS, tend to follow the paradigm of western writing systems: Start from the upper-left and go right. When you run out of space go down a line and start again from the left. To make CSS work like quadrant one we'll change the way that it lays out text.
+
 
 ## Aspect
+
+
+
 
 ## Golden Columns
 
