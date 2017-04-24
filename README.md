@@ -10,6 +10,13 @@ I'm creating a series of opinionated design systems, with predifiend classes gea
 
 Mainly these are experiments and I don't expect them all to be practical. I hope to learn a lot.
 
+
+## Divider
+
+A grid system with units that divide instead of multiply. `col-1` is 100% width, `col-2` is 50%, and `col-3` is 33%.
+
+
+
 ## Quad 1
 
 From Wikipedia, 
