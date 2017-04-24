@@ -82,16 +82,29 @@ Offset refers to the CSS properties `top`, `right`, `bottom`, and `left`. The cl
 
 ## Margin
 
-A margin-based alternative to Offset.
+Utilizes positive and negative margins. Odd indexes represent the negative equivalent of the previous even index.
 
 
 
 ## Animation
 
+Units of `.25s` for `transition-duration`. The class `anim-3` applies the following CSS:
+```css
+.anim-3 {
+  transition-property: all;
+  transition-duration: .25s;
+}
+```
 
 
 ## Colors
 
+Each color class is both a background color and a complimentary text color.
+
+
+## Hedges
+
+Decoration for the outside edges of an elements property line. Outlines, borders, and box-shadows.
 
 
 
