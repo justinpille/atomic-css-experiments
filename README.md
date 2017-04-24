@@ -8,13 +8,12 @@ Atomic CSS means writing single-purpose classes and composing them at the point 
 
 I'm creating a series of opinionated design systems, with predifiend classes geared toward the atomic philosophy. Each system can be paired with a design kit, including things like paper templates. The idea is that designers and developers can agree upon a system, then work somewhat independently using their own tools.
 
-Mainly these are experiments and I don't expect them all to be practical. I hope to learn a lot.
-
+Modules could be combined within a project, or even used to extend a framework like [basscss](http://basscss.com/)
+. Mainly these are experiments and I don't expect them all to be practical. I hope to learn a lot.
 
 ## Divider
 
-A grid system with units that divide instead of multiply. `col-1` is 100% width, `col-2` is 50%, and `col-3` is 33%.
-
+A grid system with units that divide instead of multiply. `col-1` is 100% width, `col-2` is 50%, and `col-3` is 33.33%. It goes up to `col-12`, which is 8.33%.
 
 
 ## Quad 1
