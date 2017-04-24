@@ -1,5 +1,5 @@
 # atomic-css-experiments
-A readme-only project for organizing my aspirations in atomic CSS.
+A readme-only project for organizing my aspirations in atomic CSS. Ideas are sorted into modules. Each module has a description, and eventually will have a link to the repo.
 
 Atomic CSS means writing single-purpose classes and composing them at the point of use. You can read about the benefits of this approach at the links below:
 
